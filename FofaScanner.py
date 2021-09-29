@@ -18,8 +18,8 @@ parser.add_argument('-size', type=int, help="每次查询返回记录数，默�
 parser.add_argument('-page', type=int, help="翻页数，默认为第一页", dest="PAGE", default=1)
 args = parser.parse_args()
 
-FOFA_Email = '1903268948@qq.com'  # FOFA注册邮箱
-FOFA_Key = '792d5699e1dbdcd32059a79e08a67640'  # FOFA API_Key
+FOFA_Email = 'XXXXXXXX@XXX.com'  # FOFA注册邮箱
+FOFA_Key = 'XXXXXXXXXXXX'  # FOFA API_Key
 Size = args.SIZE  # FOFA官方为100条(每次查询返回记录数，默认为100条，最大可设置为10000条)
 Page = args.PAGE  # FOFA官方为第一页(翻页数，默认为第一页)
 
